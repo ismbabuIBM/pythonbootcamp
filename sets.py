@@ -14,3 +14,4 @@ my_list = ['a', 'c', 'a', 'b', 'a', 'c', 1, 4, 3, 1]
 
 #cast set to list
 print(set(my_list))
+print(set('Mississippi'))
