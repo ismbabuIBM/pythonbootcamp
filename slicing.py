@@ -5,7 +5,7 @@ print(my_str[2:]) #start includes the given index position
 print(my_str[8:])
 
 #stop
-print(my_str[:5])
+print(my_str[:5]) #stop doesn't includes the given index position
 
 #start:stop
 print(my_str[1:4])

@@ -5,6 +5,7 @@ print(type(s))
 s.add(1)
 s.add('a')
 s.add('[1, 3, 7]')
+s.add('(1, 2, 3)')
 
 print(s)
 print(len(s))
