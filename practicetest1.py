@@ -42,6 +42,7 @@ print(sorted(list4))
 d = {'simple_key':'hello'}
 # Grab 'hello'
 print(d['simple_key'])
+print(d.values)
 
 d = {'k1':{'k2':'hello'}}
 # Grab 'hello'
@@ -73,3 +74,13 @@ l_two = [1,2,{'k1':4}]
 
 # True or False?
 print(l_one[2][0] >= l_two[2]['k1'])
+
+#string slicing
+str1 = 'New Text'
+print(str1[::-1])
+print(str1[4::])
+
+#list slicing
+new_list = [23, 24, 354, 355]
+print(new_list[::-1])
+print(new_list[0::2])
